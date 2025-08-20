@@ -67,7 +67,9 @@ main (produção) 🟢
 
 - **Features**: `feature/nome-descritivo-em-kebab-case`
 - **Hotfixes**: `hotfix/descricao-breve`
+- **Fix**: `fix/descricao-do-fix`
 - **Bugs**: `bugfix/descricao-do-bug`
+- **Docs**: `docs/descricao-da-mudança`
 
 #### Fluxo de Merges
 
