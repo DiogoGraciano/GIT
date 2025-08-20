@@ -1,0 +1,215 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 80px; /* Adicionado para não cortar conteúdo atrás do header fixo */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Header e Navegação */
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    border-bottom: #0779e4 3px solid;
+    position: fixed; /* Fixa o menu no topo */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0779e4;
+}
+
+/* Página Inicial - Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.hero h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Página de Vagas */
+.job-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0779e4;
+}
+
+.job-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.company-logo {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.job-info h3 {
+    margin-top: 0;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    background: #0779e4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background: #045aab;
+}
+
+.btn-secondary {
+    display: block;
+    background: #6c757d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+}
+
+/* Página de Detalhes */
+.details-content {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn-linkedin {
+    background-color: #0077b5;
+}
+
+.btn-linkedin:hover {
+    background-color: #005582;
+}
+
+/* Página de Candidatura */
+.application-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 30px auto;
+    margin-bottom: 100px; /* Espaço para o rodapé não cobrir */
+}
+
+.application-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0779e4;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.application-form .btn {
+    width: 100%;
+    text-align: center;
+}
