@@ -47,15 +47,46 @@ git clone https://github.com/seu-usuario/portal-vagas.git
 # Entre no diretório
 cd portal-vagas
 
-# Instale as dependências
-npm install
-
-# Configure as variáveis de ambiente
-cp .env.example .env
-
-# Execute o projeto
-npm run dev
 ```
+
+## 🔍 Como Revisar Mudanças
+
+### 📋 Checklist de Revisão
+
+Antes de aprovar um Pull Request, certifique-se de que:
+
+- ✅ **Funcionalidade**: O código implementa corretamente a funcionalidade solicitada
+- ✅ **Testes**: Todos os testes passam e novos testes foram adicionados quando necessário
+- ✅ **Documentação**: O código está bem documentado e comentado
+- ✅ **Padrões**: O código segue os padrões e convenções do projeto
+- ✅ **Performance**: Não há degradação significativa de performance
+- ✅ **Segurança**: Não há vulnerabilidades de segurança introduzidas
+- ✅ **Acessibilidade**: O código mantém ou melhora a acessibilidade
+
+### 🔍 Processo de Revisão
+
+1. **Leia a Descrição**: Entenda o que o PR está tentando resolver
+2. **Teste Localmente**: Clone o branch e teste as mudanças
+3. **Revise o Código**: Analise a implementação e estrutura
+4. **Forneça Feedback**: Seja construtivo e específico
+5. **Aprove ou Solicite Mudanças**: Use os botões do GitHub apropriados
+
+### 💬 Dicas para Revisões Efetivas
+
+- **Seja Específico**: Em vez de "isso não está bom", explique o porquê
+- **Sugira Alternativas**: Proponha soluções quando possível
+- **Reconheça o Trabalho**: Aprecie o esforço e tempo investido
+- **Mantenha o Foco**: Concentre-se no código, não na pessoa
+- **Use Emojis**: Mantenha o tom amigável e construtivo
+
+### 🚨 Sinais de Alerta
+
+Fique atento a:
+- Código duplicado ou não reutilizável
+- Falta de tratamento de erros
+- Mudanças não relacionadas ao objetivo do PR
+- Quebra de funcionalidades existentes
+- Falta de testes para novos recursos
 
 ## 🤝 Equipe
 
