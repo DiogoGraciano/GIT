@@ -83,6 +83,7 @@ public
 # Temporary folders
 tmp/
 temp/
+img/tmp
 
 # Editor directories and files
 .vscode/
